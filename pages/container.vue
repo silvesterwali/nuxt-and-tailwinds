@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container bg-slate-200 overflow-y-auto">
+    <div class="container bg-gray-100 overflow-y-auto">
       <div
         class="
           grid

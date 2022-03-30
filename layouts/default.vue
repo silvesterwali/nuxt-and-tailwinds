@@ -12,7 +12,7 @@
         justify-between
       "
     >
-      <h1 class="my-auto font-mono font-semibold">Container example</h1>
+      <h1 class="my-auto font-mono font-semibold">Silvester wali</h1>
       <nav class="flex flex-row">
         <ul class="space-x-2 inline-flex">
           <li>
@@ -43,10 +43,24 @@
               >Container</nuxt-link
             >
           </li>
+          <li>
+            <nuxt-link
+              to="/form"
+              class="
+                hover:bg-gray-500
+                p-2
+                rounded-lg
+                hover:ring-2 hover:ring-gray-700
+              "
+              active-class="bg-gray-600"
+              exact
+              >form</nuxt-link
+            >
+          </li>
         </ul>
       </nav>
     </header>
-    <main class="flex-1 static">
+    <main class="flex-1 static min-h-screen">
       <nuxt />
     </main>
     <footer class="p-4 bg-black text-white flex">
